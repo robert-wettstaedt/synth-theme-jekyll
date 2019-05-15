@@ -1,0 +1,11 @@
+@import "../variables";
+
+.content {
+  margin: 32px;
+  max-width: $lg;
+  position: relative;
+
+  @media (min-width: $lg) {
+    margin: 32px auto;
+  }
+}
